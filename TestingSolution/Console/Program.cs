@@ -10,7 +10,7 @@ namespace Console
         {
             BemVindo bem = new BemVindo();
             bem.Mensagem();
-            TipoValor1 uaaa = new TipoValor1();
+            TipoNumerico uaaa = new TipoNumerico();
             uaaa.Executa();
             System.Console.WriteLine("caboo");
         }

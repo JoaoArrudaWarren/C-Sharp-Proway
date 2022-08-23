@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TestingSolution\\Console"
+    "\\TestingSolution",
+    "\\TestingSolution\\Console",
+    "\\TestingSolution\\Console\\0-TipoValor"
   ],
-  "SelectedNode": "\\InitialProject",
+  "SelectedNode": "\\TestingSolution\\Console\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
