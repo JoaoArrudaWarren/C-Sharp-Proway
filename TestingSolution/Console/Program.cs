@@ -1,4 +1,4 @@
-﻿using Console._0_TipoValor;
+﻿using Console._100_Exercicios;
 using System;
 using System.Threading.Tasks;
 
@@ -8,11 +8,8 @@ namespace Console
     {
         public static void Main()
         {
-            BemVindo bem = new BemVindo();
-            bem.Mensagem();
-            TipoNumerico uaaa = new TipoNumerico();
-            uaaa.Executa();
-            System.Console.WriteLine("caboo");
+            _000cadastro oi = new _000cadastro();
+            oi.Cadastrar();
         }
     }
 }

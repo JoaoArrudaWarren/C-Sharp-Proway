@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="0-TipoValor\TipoValor1.cs" />
+    <Compile Include="100-Exercicios\000cadastro.cs" />
     <Compile Include="BemVindo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
