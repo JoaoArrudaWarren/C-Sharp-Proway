@@ -10,6 +10,7 @@
             ulong ulo = 18446744073709551615;
             System.Console.WriteLine(ulo);
             sbyte sbite = sbyte.MaxValue;
+            ushort oi = 222222222222;
             System.Console.WriteLine(sbyte.MaxValue);
         }
     }
