@@ -4,8 +4,8 @@
     {
         public static void Executa()
         {
-            PessoaFisica pessoa = new PessoaFisica();
-            Pessoa pessoa1 = new Pessoa();
+            PessoasFisicas pessoa = new PessoasFisicas();
+            Pessoas pessoa1 = new Pessoas();
 
             pessoa.Nome = "JP";
             pessoa1.Nome = "Mi";
@@ -13,9 +13,9 @@
             System.Console.WriteLine(pessoa.Nome);
             System.Console.WriteLine(pessoa1.Nome);
 
-            PessoaFisica pessoa2 = new PessoaFisica();
+            PessoasFisicas pessoa2 = new PessoasFisicas();
             pessoa2 = pessoa;
-            Pessoa pessoa3 = new Pessoa();
+            Pessoas pessoa3 = new Pessoas();
             pessoa3 = pessoa1;
 
             System.Console.WriteLine(pessoa2.Nome);
@@ -31,12 +31,12 @@
             System.Console.WriteLine(pessoa3.Nome);
         }
     }
-    internal struct Pessoa
+    internal struct Pessoas
     {
         public int Id { get; set; }
         public string Nome { get; set; }
     }
-    internal class PessoaFisica
+    internal class PessoasFisicas
     {
         public string Nome { get => Nome.ToLower(); set => Nome = Nome.ToLower(); }
         private string Sobrenome { get; set; }

@@ -1,4 +1,4 @@
-﻿using Console.TiposNumericos;
+﻿using Console.TipoReferencia;
 namespace Console
 {
     internal class Program
@@ -10,7 +10,16 @@ namespace Console
             //TiposNumericos3.Executa();
             //Enum.Executa();
             //Enum2.Executa();
-            Estruturas.Executa();
+            //Estruturas.Executa();
+            Pessoa po = new Pessoa(nome: "");
+            Pessoa poi = new Pessoa(nome: "", sobrenome: "");
+            PessoaFisica pi = new PessoaFisica(nome: "", "", cpf: "22222");
+            System.Console.WriteLine(poi.Saudacao());
+            System.Console.WriteLine(po.Saudacao());
+            System.Console.WriteLine(pi.Saudacao());
+            Crud a = new Crud();
+            System.Console.WriteLine(a.Create(pi));
+
         }
     }
 }

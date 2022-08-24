@@ -47,6 +47,9 @@
     <Compile Include="BemVindo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoReferencia\Crud.cs" />
+    <Compile Include="TipoReferencia\Pessoa.cs" />
+    <Compile Include="TipoReferencia\PessoaFisica.cs" />
     <Compile Include="TiposNumericos\Enum.cs" />
     <Compile Include="TiposNumericos\Enum2.cs" />
     <Compile Include="TiposNumericos\Estruturas.cs" />
