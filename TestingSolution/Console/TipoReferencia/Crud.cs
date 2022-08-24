@@ -4,19 +4,25 @@ namespace Console.TipoReferencia
 {
     internal class Crud
     {
-        public string Create(PessoaFisica pessoa)
-        {
-            return "Pessoa " + pessoa.Nome + "Salva com sucesso";
+        private List<Pessoa> pessoas;
 
+        public Crud()
+        {
+            pessoas = new List<Pessoa>();
         }
 
-        public List<PessoaFisica> Read()
+        public string Create(Pessoa pessoa)
         {
-            List<PessoaFisica> pessoas = new List<PessoaFisica>();
+            this.pessoas.Add(pessoa);
+            return "Pessoa " + pessoa.Nome + "Salva com sucesso";
+        }
+
+        public List<Pessoa> Read()
+        {
             return pessoas;
         }
 
-        public string Update(PessoaFisica pessoa)
+        public string Update(Pessoa pessoa)
         {
 
             return "Pessoa " + pessoa.Nome + "foi alterada";
@@ -28,4 +34,5 @@ namespace Console.TipoReferencia
         }
     }
 }
+
 

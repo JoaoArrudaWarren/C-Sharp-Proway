@@ -50,6 +50,8 @@
     <Compile Include="TipoReferencia\Crud.cs" />
     <Compile Include="TipoReferencia\Pessoa.cs" />
     <Compile Include="TipoReferencia\PessoaFisica.cs" />
+    <Compile Include="TipoReferencia\PessoaJuridica.cs" />
+    <Compile Include="TipoReferencia\TestaPessoas.cs" />
     <Compile Include="TiposNumericos\Enum.cs" />
     <Compile Include="TiposNumericos\Enum2.cs" />
     <Compile Include="TiposNumericos\Estruturas.cs" />
