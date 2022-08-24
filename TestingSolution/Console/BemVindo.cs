@@ -7,7 +7,6 @@
             System.Console.WriteLine("Olá");
             string oi = System.Console.ReadLine();
             System.Console.WriteLine("bah " + oi);
-
         }
     }
 }

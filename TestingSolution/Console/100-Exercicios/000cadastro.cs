@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Console._100_Exercicios
+﻿namespace Console._100_Exercicios
 {
     public class _000cadastro
     {
-
         public void Cadastrar()
         {
             System.Console.WriteLine("Saudações!");
@@ -19,9 +12,6 @@ namespace Console._100_Exercicios
             System.Console.WriteLine("Digite sua idade: ");
             int idade = int.Parse(System.Console.ReadLine());
             System.Console.WriteLine("Olá, " + nome + " " + sobrenome + ", de idade " + idade);
-
-
         }
-
     }
 }

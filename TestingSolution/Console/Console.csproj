@@ -47,6 +47,10 @@
     <Compile Include="BemVindo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TiposNumericos\Enum.cs" />
+    <Compile Include="TiposNumericos\Enum2.cs" />
+    <Compile Include="TiposNumericos\Estruturas.cs" />
+    <Compile Include="TiposNumericos\TiposNumericos3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
