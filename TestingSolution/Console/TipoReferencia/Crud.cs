@@ -2,7 +2,7 @@
 
 namespace Console.TipoReferencia
 {
-    internal class Crud
+    internal class Crud : IRepository
     {
         private List<Pessoa> pessoas;
 
@@ -34,5 +34,3 @@ namespace Console.TipoReferencia
         }
     }
 }
-
-
