@@ -20,7 +20,7 @@ namespace Data.Repository
         {
             using (WarrenContext context = new WarrenContext())
             {
-                context.Set<T>().Remove(context.Set<T>().ToList()[id]);
+                context.Set<T>().Remove(context.Set<T>().Find(id));
                 context.SaveChanges();
             }
             return "Deletado";
@@ -38,7 +38,7 @@ namespace Data.Repository
         {
             using (WarrenContext context = new WarrenContext())
             {
-                return context.Set<T>().ToList()[id];
+                return context.Set<T>().Find(id);
             }
         }
 
