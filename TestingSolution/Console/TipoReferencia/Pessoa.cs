@@ -1,6 +1,6 @@
 ﻿namespace Console.TipoReferencia
 {
-    public class Pessoa
+    public class Pessoa : BaseModel
     {
         public string Nome { get; set; }
         public string Sobrenome { get; set; }

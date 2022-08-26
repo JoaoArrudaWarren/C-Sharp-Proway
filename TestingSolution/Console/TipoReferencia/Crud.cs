@@ -2,30 +2,30 @@
 
 namespace Console.TipoReferencia
 {
-    internal class Crud : IRepository
+    internal class Crud<T> : IRepository<T> where T : BaseModel
     {
-        private List<Pessoa> pessoas;
+        private List<T> pessoas;
 
         public Crud()
         {
-            pessoas = new List<Pessoa>();
+            pessoas = new List<T>();
         }
 
-        public string Create(Pessoa pessoa)
+        public string Create(T pessoa)
         {
             this.pessoas.Add(pessoa);
-            return "Pessoa " + pessoa.Nome + "Salva com sucesso";
+            return "Pessoa " + pessoa.Id + "Salva com sucesso";
         }
 
-        public List<Pessoa> Read()
+        public List<T> Read()
         {
             return pessoas;
         }
 
-        public string Update(Pessoa pessoa)
+        public string Update(T pessoa)
         {
 
-            return "Pessoa " + pessoa.Nome + "foi alterada";
+            return "Pessoa " + pessoa.Id + "foi alterada";
         }
 
         public string Delete(int id)

@@ -6,3 +6,8 @@ C:\projetos_CSharp\TestingSolution\Console\obj\Debug\Console.csproj.SuggestedBin
 C:\projetos_CSharp\TestingSolution\Console\obj\Debug\Console.csproj.CoreCompileInputs.cache
 C:\projetos_CSharp\TestingSolution\Console\obj\Debug\Console.exe
 C:\projetos_CSharp\TestingSolution\Console\obj\Debug\Console.pdb
+C:\projetos_CSharp\TestingSolution\Console\bin\Debug\EntityFramework.dll
+C:\projetos_CSharp\TestingSolution\Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\projetos_CSharp\TestingSolution\Console\bin\Debug\EntityFramework.xml
+C:\projetos_CSharp\TestingSolution\Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\projetos_CSharp\TestingSolution\Console\obj\Debug\Console.csproj.CopyComplete

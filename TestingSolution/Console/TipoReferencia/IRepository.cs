@@ -2,16 +2,16 @@
 
 namespace Console.TipoReferencia
 {
-    internal interface IRepository
+    internal interface IRepository<T>
     {
 
-        string Create(Pessoa pessoa);
+        string Create(T pessoa);
 
-        string Update(Pessoa pessoa);
+        string Update(T pessoa);
 
         string Delete(int id);
 
-        List<Pessoa> Read();
+        List<T> Read();
 
     }
 }
