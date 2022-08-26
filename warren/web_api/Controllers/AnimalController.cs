@@ -1,4 +1,5 @@
 ﻿using Data.Model;
+using Data.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace web_api.Controllers
@@ -7,12 +8,35 @@ namespace web_api.Controllers
     [ApiController]
     public class AnimalController : ControllerBase
     {
-        [HttpGet]
-        public string Get()
+        public AnimalController()
         {
-            Animal animal = new Animal { Nome = "opa", Especie = "Felis", Id = 1, Peso = 2.5f };
-            return animal.Nome;
+            repo = new();
         }
 
+        AnimalRepository repo;
+
+        [HttpGet("{id}")]
+        public Animal Get(int id)
+        {
+            return repo.GetById(id);
+        }
+
+        [HttpGet]
+        public List<Animal> GetAll()
+        {
+            return repo.GetAll();
+        }
+
+        [HttpDelete("{id}")]
+        public string Delete(int id)
+        {
+            return repo.Delete(id);
+        }
+
+        [HttpPost]
+        public string Create(Animal model)
+        {
+            return repo.Create(model);
+        }
     }
 }

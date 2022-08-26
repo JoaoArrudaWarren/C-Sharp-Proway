@@ -27,3 +27,9 @@ C:\projetos_CSharp\warren\web_api\obj\Debug\net6.0\web_api.genruntimeconfig.cach
 C:\projetos_CSharp\warren\web_api\obj\Debug\net6.0\ref\web_api.dll
 C:\projetos_CSharp\warren\web_api\bin\Debug\net6.0\Data.dll
 C:\projetos_CSharp\warren\web_api\bin\Debug\net6.0\Data.pdb
+C:\projetos_CSharp\warren\web_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\projetos_CSharp\warren\web_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\projetos_CSharp\warren\web_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\projetos_CSharp\warren\web_api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\projetos_CSharp\warren\web_api\bin\Debug\net6.0\Npgsql.dll
+C:\projetos_CSharp\warren\web_api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
