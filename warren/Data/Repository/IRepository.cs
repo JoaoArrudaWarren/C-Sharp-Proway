@@ -13,5 +13,7 @@ namespace Data.Repository
         List<T> GetAll();
 
         T GetById(int id);
+
+        string Modify(T model);
     }
 }

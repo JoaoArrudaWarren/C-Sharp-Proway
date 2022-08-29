@@ -44,6 +44,20 @@ namespace Data.Repository
 
         virtual public string Update(T model)
         {
+            using (WarrenContext context = new())
+            {
+                context.Entry<T>(model).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                context.SaveChanges();
+            }
+            return "Alterado";
+        }
+        virtual public string Modify(T model)
+        {
+            using (WarrenContext context = new())
+            {
+                context.Entry<T>(model).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                context.SaveChanges();
+            }
             return "Alterado";
         }
     }

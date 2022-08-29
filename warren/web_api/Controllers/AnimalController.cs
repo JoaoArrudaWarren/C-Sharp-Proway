@@ -38,5 +38,17 @@ namespace web_api.Controllers
         {
             return repo.Create(model);
         }
+
+        [HttpPatch]
+        public string Update(Animal model)
+        {
+            return repo.Update(model);
+        }
+
+        [HttpPut]
+        public string Modify(Animal model)
+        {
+            return repo.Modify(model);
+        }
     }
 }
