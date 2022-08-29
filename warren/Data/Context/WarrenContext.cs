@@ -10,6 +10,8 @@ namespace Data.Context
 
         public DbSet<Planta> Planta { get; set; }
 
+        public DbSet<Usuario> Usuario { get; set; }
+
         #endregion
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
