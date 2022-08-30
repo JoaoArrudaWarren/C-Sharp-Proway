@@ -16,7 +16,7 @@ namespace Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost; Port=5433; Database=postgres; UserId=postgres; Password=132435");
+            optionsBuilder.UseNpgsql("Host=192.168.0.85; Port=5433; Database=postgres; UserId=postgres; Password=132435");
         }
     }
 }

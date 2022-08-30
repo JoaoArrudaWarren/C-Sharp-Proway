@@ -15,37 +15,37 @@ namespace web_api.Controllers
             this.repo = repo;
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("GetByID/{id}")]
         public T Get(int id)
         {
             return repo.GetById(id);
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public List<T> GetAll()
         {
             return repo.GetAll();
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteByID/{id}")]
         public string Delete(int id)
         {
             return repo.Delete(id);
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public string Create(T model)
         {
             return repo.Create(model);
         }
 
-        [HttpPatch]
+        [HttpPatch("UpdateOneParam")]
         public string Update(T model)
         {
             return repo.Update(model);
         }
 
-        [HttpPut]
+        [HttpPut("Recreate")]
         public string Modify(T model)
         {
             return repo.Modify(model);
