@@ -3,7 +3,7 @@ using Data.Repository;
 
 namespace web_api.Controllers
 {
-    public class AnimalController : GenericController<Animal, AnimalRepository>
+    public class ProdutoController : GenericController<Produto, ProdutoRepository>
     {
     }
 }

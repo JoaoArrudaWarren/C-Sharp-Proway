@@ -12,6 +12,10 @@ namespace Data.Context
 
         public DbSet<Usuario> Usuario { get; set; }
 
+        public DbSet<Produto> Produto { get; set; }
+
+        public DbSet<Categoria> Categoria { get; set; }
+
         #endregion
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

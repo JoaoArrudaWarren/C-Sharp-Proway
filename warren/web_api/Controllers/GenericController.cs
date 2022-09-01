@@ -8,12 +8,7 @@ namespace web_api.Controllers
     [ApiController]
     public abstract class GenericController<T, R> : ControllerBase where T : BaseModel where R : BaseRepository<T>
     {
-        private R repo;
-
-        public GenericController(R repo)
-        {
-            this.repo = repo;
-        }
+        private R repo = Activator.CreateInstance<R>();
 
         [HttpGet("GetByID/{id}")]
         public T Get(int id)
