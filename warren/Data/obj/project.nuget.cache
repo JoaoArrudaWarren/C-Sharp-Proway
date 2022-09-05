@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GwH32EQkX5kN1IhUDwNluC2eDLlU5cDiUmIj5PXQrr9n5heOdYMYyy1duV8tbkn1Zc0YpI5uRfH+BHaOra0DYg==",
+  "dgSpecHash": "OBBL5Tku70iIDg+MnW6Rq2vmYvFKe+DeJ4zF069Lhbk6Te8CyuAqEAl4lFqcH/0eLN4WrcvafZJwpBmldlGtww==",
   "success": true,
   "projectFilePath": "C:\\projetos_CSharp\\warren\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\João.Rocha\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.8\\microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",
@@ -20,11 +21,17 @@
     "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.1\\microsoft.identitymodel.abstractions.6.22.1.nupkg.sha512",
+    "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.22.1\\microsoft.identitymodel.jsonwebtokens.6.22.1.nupkg.sha512",
+    "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.identitymodel.logging\\6.22.1\\microsoft.identitymodel.logging.6.22.1.nupkg.sha512",
+    "C:\\Users\\João.Rocha\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.22.1\\microsoft.identitymodel.tokens.6.22.1.nupkg.sha512",
     "C:\\Users\\João.Rocha\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
     "C:\\Users\\João.Rocha\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.6\\npgsql.entityframeworkcore.postgresql.6.0.6.nupkg.sha512",
     "C:\\Users\\João.Rocha\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\João.Rocha\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\João.Rocha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\João.Rocha\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.22.1\\system.identitymodel.tokens.jwt.6.22.1.nupkg.sha512",
+    "C:\\Users\\João.Rocha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\João.Rocha\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
